@@ -100,13 +100,38 @@ body, h1, h2, h3, ul, p {
 .box {
     width: 33.3%;
     float: left;
-    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .box img {
-    margin-bottom: 150px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.cv {
+    text-align: center;
+    margin: 50px 0 70px 0;
+}
+
+.cv a{   
+    display: inline-block;
+    background: #35424a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #35424a;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.cv a:hover{
+    color: #35424a;
+    background: none;
 }
 
 #contact {
